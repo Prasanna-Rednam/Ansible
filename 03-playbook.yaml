@@ -1,0 +1,13 @@
+-name: install nginx
+hosts: web
+tasks: 
+     - name: Install nginx
+       ansible.builtin.package: # Use 'ansible.builtin.yum' or 'ansible.builtin.dnf' for RHEL/CentOS
+        name: nginx
+        state: present 
+        update_cache: yes
+     - name: Ensure nginx is started and enabled
+       ansible.builtin.systemd: # Use 'ansible.builtin.service' for older systems
+        name: nginx
+        state: started
+        enabled: yes
