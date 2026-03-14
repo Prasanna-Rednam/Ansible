@@ -8,8 +8,8 @@
         state: present 
 
 
-    #  - name: Ensure nginx is started and enabled
-    #    ansible.builtin.systemd: # Use 'ansible.builtin.service' for older systems
-    #     name: nginx
-    #     state: started
-    #     enabled: yes
+     - name: Ensure nginx is started and enabled
+       ansible.builtin.service: # Use 'ansible.builtin.service' for older systems
+        name: nginx
+        state: started
+        enabled: yes
