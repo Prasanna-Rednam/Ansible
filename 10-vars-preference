@@ -10,4 +10,4 @@
       vars:
         name: "sreeja"
       ansible.builtin.debug:
-      msg: "variable {{name}}"
+        msg: "variable {{name}}"
