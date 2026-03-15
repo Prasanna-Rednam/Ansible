@@ -4,9 +4,8 @@
   tasks:
   - name: installing packages {{item}}
     ansible.builtin.package:
-    - name: {{item}}
+      name: {{item}}
       state: present
-
       loop:
       - nginx
       - mysql
