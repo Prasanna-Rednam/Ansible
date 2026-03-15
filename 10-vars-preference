@@ -11,7 +11,7 @@
   - course.yaml
   tasks:
     - name: print msg
-      vars: 
-      - name: "name from task" 
+      # vars: 
+      # - name: "name from task" 
       ansible.builtin.debug:
         msg: "variable {{name}}"
