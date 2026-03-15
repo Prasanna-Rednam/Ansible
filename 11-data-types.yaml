@@ -12,9 +12,8 @@
     - linux
     - shell
     - Ansible
-    ADVANTAGES:
-    [upskill, shift, increment]
-    tasks:
+    ADVANTAGES: [upskill, shift, increment]
+  tasks:
     - name: print the DETAILS
       ansible.builtin.debug:
         msg: "printing variables program: {{PROGRAM}} DURATION: {{DURATION}} IS_LIVE: {{IS_LIVE}} DETAILS: {{DETAILS}} TOPICS: {{TOPICS}} ADVANTAGES: {{ADVANTAGES}}"
