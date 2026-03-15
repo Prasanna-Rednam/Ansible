@@ -7,7 +7,6 @@
   - course.yaml
   tasks:
     - name: print msg
-      vars:
-        name: "sreeja"
+
       ansible.builtin.debug:
         msg: "variable {{name}}"
