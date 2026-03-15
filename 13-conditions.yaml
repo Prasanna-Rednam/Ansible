@@ -1,0 +1,10 @@
+- name: condition
+  hosts: local
+  connection: local
+  vars: 
+    classes: 7
+  tasks:
+  - name: "printing msg"
+    ansible.builtin.debug:
+      msg: "is more than 5"
+    when: classes > 5
