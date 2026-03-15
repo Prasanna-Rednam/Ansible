@@ -1,8 +1,8 @@
 - name: variable scope checking
   hosts: local
   connection: local
-  vars: 
-    name: "name from play"
+  # vars: 
+  #   name: "name from play"
   # vars_prompt:
   # - name: name
   #   prompt: please enter name
