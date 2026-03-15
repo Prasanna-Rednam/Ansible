@@ -1,0 +1,13 @@
+- name: variable scope checking
+  hosts: local
+  connection: local
+  vars: 
+    name: "prasanna"
+  vars_files:
+  - course.yaml
+  tasks:
+    - name: print msg
+      vars:
+        name: "sreeja"
+      ansible.builtin.debug:
+      msg: "variable {{name}}"
