@@ -8,6 +8,7 @@
     instances:
     - mongodb
     - catalogue
+    domain_name: paws-88s.online
   tasks:
   - name: create ec2 instance 
     amazon.aws.ec2_instance:
