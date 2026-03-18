@@ -1,0 +1,27 @@
+- name: "prasanna"
+  dob: "30/04/2003"
+  mobilenumber: "9392410166"
+  addresses: 
+   - flatnumber: 104
+     street: "gandi nagar"
+     city: "kakinada"
+     type: "perm"
+
+   - flatnumber: 104
+     street: "gandi nagar"
+     city: "kakinada"
+     type: "current"  
+
+- name: "sreeja"
+  dob: "30/04/2003"
+  mobilenumber: "9392410166"
+  addresses: 
+   - flatnumber: 104
+     street: "gandi nagar"
+     city: "kakinada"
+     type: "perm"
+
+   - flatnumber: 104
+     street: "gandi nagar"
+     city: "kakinada"
+     type: "current"       

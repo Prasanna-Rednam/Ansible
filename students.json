@@ -1,0 +1,50 @@
+{
+    "students": [
+        {
+            "firstName": "Prasanna",
+            "dob": "30/04/2003",
+            "address": [
+                {
+                    "type": "perm",
+                    "flatnumber": 104,
+                    "street": "gandi nagar",
+                    "city": "kakinada"
+                },
+                {
+                    "type": "current",
+                    "flatnumber": 104,
+                    "street": "gandi nagar",
+                    "city": "kakinada"
+                }
+            ],
+            "skills": [
+                "java",
+                "devops",
+                "cloud"
+            ]
+        },
+        {
+            "firstName": "sreeja",
+            "dob": "30/04/2003",
+            "address": [
+                {
+                    "type": "perm",
+                    "flatnumber": 104,
+                    "street": "gandi nagar",
+                    "city": "kakinada"
+                },
+                {
+                    "type": "current",
+                    "flatnumber": 104,
+                    "street": "gandi nagar",
+                    "city": "kakinada"
+                }
+            ],
+            "skills": [
+                "java",
+                "devops",
+                "cloud"
+            ]
+        }
+    ]
+}
